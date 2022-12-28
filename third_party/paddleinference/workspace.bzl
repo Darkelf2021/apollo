@@ -10,9 +10,9 @@ def clean_dep(dep):
 def repo():
     http_archive(
         name = "paddleinference",
-        sha256 = "5f3ec34d85842d11494b3d2781923dd7103937ae1b1719e2de783b9dbe71a506",
+        sha256 = "b205e321110cdd7e819251e0e8bd8849731fb79bdece552ffc87d73fce3b2fb3",
         strip_prefix = "paddleinference",
         urls = [
-            "https://apollo-system.bj.bcebos.com/archive/8.0/paddleinference.tar.gz",
+            "https://apollo-system.bj.bcebos.com/archive/v8.0_bev/paddleinference.tar.gz",
         ],
     )
